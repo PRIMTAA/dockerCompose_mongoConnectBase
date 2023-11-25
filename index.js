@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 
 const app = Express()
 
-mongoose.connect("mongodb://localhost:27017/dbTest")
+mongoose.connect("mongodb://mongodb_abc/dbTest")
 .then(console.log("db connected"))
 .catch("error")
 

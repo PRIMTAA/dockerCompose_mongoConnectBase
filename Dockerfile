@@ -1,8 +1,8 @@
-FROM node:20-alpine
+FROM node:21-alpine
 
-WORKDIR /src/usr/app
+WORKDIR /usr/src/app
 
-COPY package* .
+COPY package* ./
 
 RUN npm i
 

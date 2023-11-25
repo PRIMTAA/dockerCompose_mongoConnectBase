@@ -1,12 +1,12 @@
 version: '3.8'
 
 services:
-  mongodb_1:
+  mongodb_abc:
     image: mongo:latest
     ports:
       - "27017:27017"
     
-  # custom_app:
-  #   build: ./
-  #   ports:
-  #     - "3000:3000"
+  custom_app:
+    build: ./
+    ports:
+      - "3000:3000"
